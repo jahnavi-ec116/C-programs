@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+	int a,b,c;
+	float s,area;
+	printf("enter the a,b,c values");
+	scanf("%d%d%d",&a,&b,&c);
+	s=(a+b+c)/2;
+	area=sqrt(s*(s-a)*(s-b)*(s-c));
+	printf("the area of traingle is %f",area);
+	return 0;
+}
+
+
